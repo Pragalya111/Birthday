@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Magical Gift - Happy Birthday Rubha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page gift-page">
+        <!-- Animated background -->
+        <div class="background-wrapper">
+            <div class="gradient-bg gradient-variant-4"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="content-wrapper gift-content">
+            <h1 class="page-title">🎁 Your Magical Gift 🎁</h1>
+
+            <div class="gift-container">
+                <!-- Gift Box -->
+                <div class="gift-box-wrapper" id="giftBox" onclick="openGift()">
+                    <div class="gift-box">
+                        <!-- Gift Lid -->
+                        <div class="gift-lid">
+                            <div class="lid-shadow"></div>
+                        </div>
+                        
+                        <!-- Gift Body -->
+                        <div class="gift-body">
+                            <div class="gift-ribbon vertical-ribbon"></div>
+                            <div class="gift-ribbon horizontal-ribbon"></div>
+                            <div class="gift-bow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Confetti Container -->
+                <div class="confetti-container" id="confettiContainer"></div>
+
+                <!-- Gift Content (Hidden until opened) -->
+                <div class="gift-reveal glass-card" id="giftReveal">
+                    <h2 class="gift-title">Inside This Gift 🌸</h2>
+                    <div class="gift-items">
+                        <div class="gift-item">
+                            <span class="gift-icon">🌸</span>
+                            <p>Endless Happiness</p>
+                        </div>
+                        <div class="gift-item">
+                            <span class="gift-icon">✨</span>
+                            <p>Confidence</p>
+                        </div>
+                        <div class="gift-item">
+                            <span class="gift-icon">💖</span>
+                            <p>Love</p>
+                        </div>
+                        <div class="gift-item">
+                            <span class="gift-icon">🎯</span>
+                            <p>Success</p>
+                        </div>
+                        <div class="gift-item">
+                            <span class="gift-icon">🌈</span>
+                            <p>Beautiful Memories</p>
+                        </div>
+                        <div class="gift-item">
+                            <span class="gift-icon">🦄</span>
+                            <p>Magical Adventures</p>
+                        </div>
+                    </div>
+
+                    <!-- Floating hearts animation -->
+                    <div class="floating-hearts">
+                        <div class="floating-heart heart-float-1">💖</div>
+                        <div class="floating-heart heart-float-2">💖</div>
+                        <div class="floating-heart heart-float-3">💖</div>
+                        <div class="floating-heart heart-float-4">💖</div>
+                        <div class="floating-heart heart-float-5">💖</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button class="magic-button" onclick="navigateTo('wishes.html')">
+                    Read My Wishes ✨
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
